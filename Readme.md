@@ -3,7 +3,7 @@
 •	NodeJS should be installed with Node Package Manager.
 
 **Application Details:**
-•	Database Server: MongoDB
+•	Database Server: MongoDB.
 •	Application Server: Express
 •	Frontend technology: HTML handlebars
 •	Backend technology: Nodejs
