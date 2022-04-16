@@ -1,24 +1,24 @@
-Required Settings:
+**Required Settings:**
 •	MongoDB should be installed.
 •	NodeJS should be installed with Node Package Manager.
 
-Application Details:
+**Application Details:**
 •	Database Server: MongoDB
 •	Application Server: Express
 •	Frontend technology: HTML handlebars
 •	Backend technology: Nodejs
 •	Packages used: Multer, Express, handlebars, MongoDB
 
-Recommended IDE: Visual Studio (Other IDEs works fine as well)
+**Recommended IDE:** Visual Studio (Other IDEs works fine as well)
 
-How to run the Application?
+**How to run the Application?**
 1.	Unzip the file
 2.	Open the terminal in Visual studio code or open CMD
 3.	Run Command “npm Install”
 4.	Run Command “npm start”
 5.	Application will start running on http://localhost:3000/
 
-Implementation Details:
+**Implementation Details:**
 •	The website uses Multer NPM package to upload the file in the MongoDB database
 •	The file is also stored on the local file location at public/files folder into the application
 •	The User Form have validation to make sure all the inputs are correct, and all fields are mandatory.
