@@ -1,0 +1,17 @@
+<link href="/public/css/profile.css" rel="stylesheet">
+<div class = "profilebody">
+    <div class="card-container">
+        {{#if document}}
+            <p><a class="round" href="../public/files/{{document}}" target="_blank" >View File</a></p>
+        {{/if}}
+        <h1>{{firstName}} {{lastName}}</h1>
+        <p>{{country}}</p>
+        <p>{{biography}}</p>
+        <p class= "gender">Gender: {{gender}}</p>
+        <p class= "contact">Contact: {{phoneNumber}} <br> {{emailAddress}}</p>
+        <a class="btn" href="/">back to Upload File</a>
+        <br/>
+        <br/>
+    </div>
+</div>
+

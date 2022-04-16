@@ -1,0 +1,280 @@
+.form_body {
+    --color-primary: #5798f3;
+    --color-primary-dark: #1d67c2;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+
+    margin: 0;
+    align-items: center; 
+    justify-content: center;
+    font-size: 18px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login_container {
+    margin-top: 100px;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
+}
+
+.login_container_out {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav1{
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    max-width: 550px;
+    max-height: 200px;
+    width:100%;
+    overflow-y: scroll;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    display: block;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+
+}
+
+.container,
+.nav1,
+.centertext,
+.form__input,
+.form__button {
+    font: 500 1rem 'Quicksand', sans-serif;
+}
+
+.form--hidden {
+    display: none;
+}
+
+.form > *:first-child {
+    margin-top: 0;
+}
+
+.form > *:last-child {
+    margin-bottom: 0;
+}
+
+.form__title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form__message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success {
+    color: var(--color-success);
+}
+
+.form__message--error {
+    color: var(--color-error);
+}
+
+.form__input-group {
+    margin-bottom: 1rem;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.form__input:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+}
+
+.form__input--error {
+    color: var(--color-error);
+    border-color: var(--color-error);
+}
+
+.form__input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--color-error);
+}
+
+.form__button {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    /* background: var(--color-primary); */
+    background-color: black;
+}
+
+.form__button:hover {
+    background: var(--color-primary-dark);
+}
+
+.form__button:active {
+    transform: scale(0.98);
+}
+
+.form__text {
+    text-align: center;
+}
+
+.form__link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__link:hover {
+    text-decoration: underline;
+}
+/* ul li{
+    display: inline;
+} */
+.centertext{
+    text-align: center;
+    width: auto;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.Login-Signup{
+    width: 15%;
+    float: right;
+    top: 0;
+    position: fixed;
+    right: 0;
+}
+
+.Home-btn{
+    float: left;
+}
+
+.diseaseButton{
+    float:left;
+    width:20%;
+    padding: 10px;
+    background: #2196F3;
+    color:white;
+    font-size:17px;
+    border:1px solid grey;
+    border-left:none;
+    cursor: pointer;
+}
+
+.diseaseButton:hover{
+    background: #0b7dda;
+}
+
+form.search input[type=text]{
+    padding:10px;
+    font-size:17px;
+    border:1px solid grey;
+    float:left;
+    width:80%;
+    background: #f1f1f1;
+}
+
+select {
+    color: rgb(120, 119, 119);
+}
+.dateInput{
+    color: rgb(120, 119, 119);
+}
+
+.show_name{
+    color:white;
+    width: 100%
+}
+.not-found{
+    color:var(--color-error) ;
+}
+
+#Second1 {
+    margin-top: 80px;
+}
+#Second2 {
+    margin-top: 80px;
+}
+
+.search_label{
+    font-size: 20px;
+}
+
+.disease_search{
+    margin-top: 10px;
+}
+
+
+#disease_list{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+#disease_list:hover {
+    color: blue;
+  }
+
+  
+.nav2{
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 75%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    max-width: 550px;
+    max-height: 200px;
+    overflow-y: scroll;
+    width:100%;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    display: block;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+
+}
+
+.mainDisease{
+    overflow:hidden;
+}
+
+.DD{
+    font-size: 2rem;
+}
